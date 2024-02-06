@@ -1,6 +1,10 @@
-# Ignore Terraform state files
-*.terraform
-
-# Ignore Terraform configuration files
+# Ignore .tf files
+*.tf
 *.tfstate
-*.tfstate.*
+
+# Ignore .terraform directories
+**/.terraform/
+
+# Ignore .pub files
+*.pub
+
