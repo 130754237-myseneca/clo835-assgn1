@@ -6,5 +6,5 @@
 **/.terraform/
 
 # Ignore .pub files
-*.pub
+**/*.pub
 
